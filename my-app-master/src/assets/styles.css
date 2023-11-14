@@ -1,0 +1,959 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Medium.woff") format("woff2");
+}
+
+.full-admin {
+  font-family: Poppins;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-admin .container {
+  padding: 0 200px;
+}
+
+.full-admin .container .box .special {
+  width: 100%;
+  background-color: #fff;
+}
+
+.full-admin .container .box .special .special-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.full-admin .container .box .special .special-menu-list .special-menu-list-item {
+  color: #21cc7a;
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #21cc7a;
+  color: #fff;
+}
+
+.full-admin .container .box .special .special-menu-list .special-menu-list-item:not(:first-child) {
+  margin-left: 20px;
+}
+
+.full-admin .container .box .special .special-menu-list .special-menu-list-item::marker {
+  display: none;
+}
+
+.full-admin .container .box .special .special-menu-list .active {
+  background-color: #21cc7a;
+  color: #fff;
+}
+
+.full-admin .container .home-form .card form .form-image {
+  margin-bottom: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full-admin .container .home-form .card form .form-image .label {
+  width: 100%;
+}
+
+.full-admin .container .home-form .card form .form-image .label label {
+  color: #173261;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+
+.full-admin .container .home-form .card form .form-image .label input {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-admin .container .home-form .card form .form-image .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .home-form .card form .form-title {
+  margin-bottom: 15px;
+}
+
+.full-admin .container .home-form .card form .form-title .label {
+  width: 100%;
+}
+
+.full-admin .container .home-form .card form .form-title .label label {
+  margin-bottom: 5px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.full-admin .container .home-form .card form .form-title .label input {
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-admin .container .home-form .card form .form-title .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .home-form .card form .label {
+  width: 100%;
+}
+
+.full-admin .container .home-form .card form .label label {
+  margin-bottom: 5px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+
+.full-admin .container .home-form .card form .label textarea {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 15px;
+  resize: none;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #173261;
+  outline: none;
+  border: none;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-admin .container .home-form .card form .label textarea:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .home-form .card form .form-finish .add-btn {
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #21cc7a;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #21cc7a;
+}
+
+.full-admin .container .home-form .card form .form-finish .add-btn:hover {
+  color: #ffffff;
+  background-color: #21cc7a;
+}
+
+.full-admin .container .home-form .card form .form-finish .delete-btn {
+  margin-bottom: 10px;
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #3477f3;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #3477f3;
+}
+
+.full-admin .container .home-form .card form .form-finish .delete-btn:hover {
+  color: #ffffff;
+  background-color: #3477f3;
+}
+
+.full-admin .container .home-form .card .delete-btn {
+  margin-top: 10px;
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ed145b;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #ed145b;
+}
+
+.full-admin .container .home-form .card .delete-btn:hover {
+  color: #ffffff;
+  background-color: #ed145b;
+}
+
+.full-admin .container .master-room-form .card form .form-image {
+  margin-bottom: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full-admin .container .master-room-form .card form .form-image .label {
+  width: 100%;
+}
+
+.full-admin .container .master-room-form .card form .form-image .label label {
+  color: #173261;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+
+.full-admin .container .master-room-form .card form .form-image .label input {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-admin .container .master-room-form .card form .form-image .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .master-room-form .card form .form-title {
+  margin-bottom: 15px;
+}
+
+.full-admin .container .master-room-form .card form .form-title .label {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.full-admin .container .master-room-form .card form .form-title .label label {
+  margin-bottom: 10px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.full-admin .container .master-room-form .card form .form-title .label input {
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-admin .container .master-room-form .card form .form-title .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .master-room-form .card form .form-finish .add-btn {
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #21cc7a;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #21cc7a;
+}
+
+.full-admin .container .master-room-form .card form .form-finish .add-btn:hover {
+  color: #ffffff;
+  background-color: #21cc7a;
+}
+
+.full-admin .container .master-room-form .card form .form-finish .delete-btn-master {
+  margin-bottom: 10px;
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ed145b;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #ed145b;
+}
+
+.full-admin .container .master-room-form .card form .form-finish .delete-btn-master:hover {
+  color: #ffffff;
+  background-color: #ed145b;
+}
+
+.full-admin .container .master-room-form .delete-btn {
+  margin-top: 10px;
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ed145b;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #ed145b;
+}
+
+.full-admin .container .master-room-form .delete-btn:hover {
+  color: #ffffff;
+  background-color: #ed145b;
+}
+
+.full-admin .container .menu-form .card form .form-image {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full-admin .container .menu-form .card form .form-image .label {
+  width: 100%;
+  position: relative;
+}
+
+.full-admin .container .menu-form .card form .form-image .label label {
+  color: #173261;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+
+.full-admin .container .menu-form .card form .form-image .label input {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.full-admin .container .menu-form .card form .form-image .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .menu-form .card form .form-title {
+  margin-bottom: 15px;
+}
+
+.full-admin .container .menu-form .card form .form-title .label {
+  width: 100%;
+}
+
+.full-admin .container .menu-form .card form .form-title .label label {
+  margin-bottom: 5px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.full-admin .container .menu-form .card form .form-title .label input {
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.full-admin .container .menu-form .card form .form-title .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .menu-form .card form .label {
+  width: 100%;
+}
+
+.full-admin .container .menu-form .card form .label label {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+
+.full-admin .container .menu-form .card form .label textarea {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 15px;
+  resize: none;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #173261;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+
+.full-admin .container .menu-form .card form .label textarea:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .menu-form .card form .form-finish .add-btn {
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #21cc7a;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #21cc7a;
+}
+
+.full-admin .container .menu-form .card form .form-finish .add-btn:hover {
+  color: #ffffff;
+  background-color: #21cc7a;
+}
+
+.full-admin .container .menu-form .card .delete-btn {
+  margin-top: 10px;
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ed145b;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #ed145b;
+}
+
+.full-admin .container .menu-form .card .delete-btn:hover {
+  color: #ffffff;
+  background-color: #ed145b;
+}
+
+.full-admin .container .blog-form .card form .form-image {
+  margin-bottom: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full-admin .container .blog-form .card form .form-image .label {
+  width: 100%;
+}
+
+.full-admin .container .blog-form .card form .form-image .label label {
+  color: #173261;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+
+.full-admin .container .blog-form .card form .form-image .label input {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-admin .container .blog-form .card form .form-image .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .blog-form .card form .form-title {
+  margin-bottom: 15px;
+}
+
+.full-admin .container .blog-form .card form .form-title .label {
+  width: 100%;
+}
+
+.full-admin .container .blog-form .card form .form-title .label label {
+  margin-bottom: 5px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.full-admin .container .blog-form .card form .form-title .label input {
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.full-admin .container .blog-form .card form .form-title .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .blog-form .card form .label {
+  width: 100%;
+}
+
+.full-admin .container .blog-form .card form .label label {
+  margin-bottom: 5px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+
+.full-admin .container .blog-form .card form .label textarea {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 15px;
+  resize: none;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #173261;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+
+.full-admin .container .blog-form .card form .label textarea:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .blog-form .card form .form-dates {
+  margin-bottom: 15px;
+}
+
+.full-admin .container .blog-form .card form .form-dates .label {
+  width: 100%;
+}
+
+.full-admin .container .blog-form .card form .form-dates .label label {
+  margin-bottom: 5px;
+  color: #173261;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.full-admin .container .blog-form .card form .form-dates .label input {
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #17326133;
+          box-shadow: 0px 0px 20px 0px #17326133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #173261;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.full-admin .container .blog-form .card form .form-dates .label input:focus {
+  border-bottom: 4px solid #21cc7a;
+}
+
+.full-admin .container .blog-form .card form .form-finish .add-btn {
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #21cc7a;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #21cc7a;
+}
+
+.full-admin .container .blog-form .card form .form-finish .add-btn:hover {
+  color: #ffffff;
+  background-color: #21cc7a;
+}
+
+.full-admin .container .blog-form .card .delete-btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 30%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ed145b;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  border: 2px solid #ed145b;
+}
+
+.full-admin .container .blog-form .card .delete-btn:hover {
+  color: #ffffff;
+  background-color: #ed145b;
+}
+
+.full-admin .container .show {
+  display: block;
+}
+
+.home-li::marker {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  #full-admin .full-admin .container {
+    padding: 0 100px;
+  }
+  #full-admin .full-admin .container .box .special .special-menu-list .special-menu-list-item {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #full-admin .full-admin .container {
+    padding: 0 40px;
+  }
+  #full-admin .full-admin .container .box .special .special-menu-list .special-menu-list-item {
+    font-size: 19px;
+  }
+  #full-admin .full-admin .container .home-form .form .form-full .form-title .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .home-form .form .form-full .form-title .label input {
+    height: 40px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .home-form .form .form-full .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .home-form .form .form-full .label textarea {
+    height: 120px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .home-form .form .form-full .form-finish button {
+    font-size: 14px;
+    padding: 6px 20px;
+  }
+  #full-admin .full-admin .container .master-form .form .form-full .form-title .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .master-form .form .form-full .form-title .label input {
+    height: 40px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .master-form .form .form-full .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .master-form .form .form-full .label textarea {
+    height: 120px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .master-form .form .form-full .form-finish button {
+    font-size: 14px;
+    padding: 6px 20px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .form-image .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .form-image .label input {
+    height: 40px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .form-image .label .abs {
+    height: 40px;
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .form-title .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .form-title .label input {
+    height: 40px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .label textarea {
+    height: 120px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .form-finish button {
+    font-size: 14px;
+    padding: 6px 20px;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .form-title .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .form-title .label input {
+    height: 40px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .label textarea {
+    height: 120px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .form-dates .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .form-dates .label input {
+    height: 40px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .form-finish button {
+    font-size: 14px;
+    padding: 6px 20px;
+  }
+  #full-admin .full-admin .container .party-form .form .form-full .form-image .label label {
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .party-form .form .form-full .form-image .label input {
+    height: 40px;
+    font-size: 14px;
+  }
+  #full-admin .full-admin .container .party-form .form .form-full .form-image .label .abs {
+    height: 40px;
+    font-size: 15px;
+  }
+  #full-admin .full-admin .container .party-form .form .form-full .form-finish button {
+    font-size: 14px;
+    padding: 6px 20px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #full-admin .full-admin .container {
+    padding: 0 20px;
+  }
+  #full-admin .full-admin .container .box .special .special-menu-list .special-menu-list-item {
+    font-size: 12px;
+    padding: 6px;
+  }
+  #full-admin .full-admin .container .box .special .special-menu-list .special-menu-list-item:not(:last-child) {
+    margin-right: 5px;
+  }
+  #full-admin .full-admin .container .home-form .form .form-full .form-finish button {
+    padding: 6px 15px !important;
+    font-size: 10px !important;
+  }
+  #full-admin .full-admin .container .master-form .form .form-full .form-finish button {
+    padding: 6px 15px !important;
+    font-size: 10px !important;
+  }
+  #full-admin .full-admin .container .menu-form .form .form-full .form-finish button {
+    padding: 6px 15px !important;
+    font-size: 10px !important;
+  }
+  #full-admin .full-admin .container .blog-form .form .form-full .form-finish button {
+    padding: 6px 15px !important;
+    font-size: 10px !important;
+  }
+  #full-admin .full-admin .container .party-form .form .form-full .form-finish button {
+    padding: 6px 15px !important;
+    font-size: 10px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
